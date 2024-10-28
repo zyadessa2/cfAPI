@@ -1,8 +1,8 @@
 [build]
     base = "/"
     publish = "/dist"
-    functions = "/functions/ac.js"
+    functions = "/functions"
 [[redirects]]
     from = "/*"
-    to = "/dist/index.html"
+    to = "/"
     status = 200
